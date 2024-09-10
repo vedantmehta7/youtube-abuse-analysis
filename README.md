@@ -1,6 +1,4 @@
-# youtube abuse analysis
-
-# YouTube Content Policy Enforcement Project
+# YouTube Abuse Analysis
 
 ## Overview
 This project aims to develop and implement strategies to enforce YouTube content policies at scale using machine learning. The project involves collecting data, analyzing trends, building predictive models, and creating a robust incident response system.
@@ -56,11 +54,8 @@ This project aims to develop and implement strategies to enforce YouTube content
 - Create automated reports on policy enforcement effectiveness and trends.
 - Develop visualizations to communicate insights to non-technical teams.
 
-## Contributing
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For questions or feedback, please contact [Your Name](mailto:vedantmehta987@gmail.com).
+For questions or feedback, please contact [Vedant Mehta](mailto:vedantmehta987@gmail.com).
