@@ -1,61 +1,92 @@
 # YouTube Abuse Analysis
 
-## Overview
-This project aims to develop and implement strategies to enforce YouTube content policies at scale using machine learning. The project involves collecting data, analyzing trends, building predictive models, and creating a robust incident response system.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Content Policy Enforcement Project</title>
+</head>
+<body>
 
-## Table of Contents
-- [Data Collection and Preprocessing](#data-collection-and-preprocessing)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Feature Engineering](#feature-engineering)
-- [Model Development](#model-development)
-- [Model Evaluation and Optimization](#model-evaluation-and-optimization)
-- [Scalability and Performance Optimization](#scalability-and-performance-optimization)
-- [Incident Response System](#incident-response-system)
-- [Reporting and Visualization](#reporting-and-visualization)
+<h1>YouTube Content Policy Enforcement Project</h1>
 
-## Data Collection and Preprocessing
-- Gather historical data on video uploads, user reports, and policy violations.
-- Collect metadata on videos (title, description, tags, etc.).
-- Preprocess text data using NLP techniques (tokenization, stemming, etc.).
-- Extract visual features from video frames using computer vision algorithms.
+<h2>Overview</h2>
+<p>This project aims to develop and implement strategies to enforce YouTube content policies at scale using machine learning. The project involves collecting data, analyzing trends, building predictive models, and creating a robust incident response system.</p>
 
-## Exploratory Data Analysis
-- Analyze trends in policy violations over time.
-- Identify correlations between video metadata and policy violations.
-- Visualize the distribution of different types of policy violations.
+<h2>Table of Contents</h2>
+<ul>
+    <li><a href="#data-collection-and-preprocessing">Data Collection and Preprocessing</a></li>
+    <li><a href="#exploratory-data-analysis">Exploratory Data Analysis</a></li>
+    <li><a href="#feature-engineering">Feature Engineering</a></li>
+    <li><a href="#model-development">Model Development</a></li>
+    <li><a href="#model-evaluation-and-optimization">Model Evaluation and Optimization</a></li>
+    <li><a href="#scalability-and-performance-optimization">Scalability and Performance Optimization</a></li>
+    <li><a href="#incident-response-system">Incident Response System</a></li>
+    <li><a href="#reporting-and-visualization">Reporting and Visualization</a></li>
+</ul>
 
-## Feature Engineering
-- Create text-based features using TF-IDF or word embeddings.
-- Develop visual features using convolutional neural networks.
-- Generate user behavior features (e.g., upload frequency, report history).
+<h2 id="data-collection-and-preprocessing">Data Collection and Preprocessing</h2>
+<ul>
+    <li>Gather historical data on video uploads, user reports, and policy violations.</li>
+    <li>Collect metadata on videos (title, description, tags, etc.).</li>
+    <li>Preprocess text data using NLP techniques (tokenization, stemming, etc.).</li>
+    <li>Extract visual features from video frames using computer vision algorithms.</li>
+</ul>
 
-## Model Development
-- Build a multi-class classification model to predict policy violations.
-- Implement ensemble methods (e.g., Random Forest, XGBoost) for improved accuracy.
-- Develop a deep learning model combining text and visual features.
+<h2 id="exploratory-data-analysis">Exploratory Data Analysis</h2>
+<ul>
+    <li>Analyze trends in policy violations over time.</li>
+    <li>Identify correlations between video metadata and policy violations.</li>
+    <li>Visualize the distribution of different types of policy violations.</li>
+</ul>
+<img src="https://pplx-res.cloudinary.com/image/upload/v1725994651/user_uploads/imytpimju/image.jpg" alt="Correlation Heatmap" width="500">
+<img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/28738215/48f849d7-619b-4f70-8813-3c6882bea253/image.png" alt="Policy Violations Bar Chart" width="500">
 
-## Model Evaluation and Optimization
-- Use cross-validation to assess model performance.
-- Optimize hyperparameters using grid search or Bayesian optimization.
-- Evaluate models using metrics such as precision, recall, and F1-score.
+<h2 id="feature-engineering">Feature Engineering</h2>
+<ul>
+    <li>Create text-based features using TF-IDF or word embeddings.</li>
+    <li>Develop visual features using convolutional neural networks.</li>
+    <li>Generate user behavior features (e.g., upload frequency, report history).</li>
+</ul>
 
-## Scalability and Performance Optimization
-- Implement distributed computing using Apache Spark for large-scale processing.
-- Optimize model inference time for real-time policy enforcement.
-- Develop a pipeline for continuous model retraining and deployment.
+<h2 id="model-development">Model Development</h2>
+<ul>
+    <li>Build a multi-class classification model to predict policy violations.</li>
+    <li>Implement ensemble methods (e.g., Random Forest, XGBoost) for improved accuracy.</li>
+    <li>Develop a deep learning model combining text and visual features.</li>
+</ul>
 
-## Incident Response System
-- Create an automated alert system for detecting sudden spikes in policy violations.
-- Develop a dashboard for real-time monitoring of policy enforcement metrics.
-- Implement a root cause analysis framework for rapid incident investigation.
+<h2 id="model-evaluation-and-optimization">Model Evaluation and Optimization</h2>
+<ul>
+    <li>Use cross-validation to assess model performance.</li>
+    <li>Optimize hyperparameters using grid search or Bayesian optimization.</li>
+    <li>Evaluate models using metrics such as precision, recall, and F1-score.</li>
+</ul>
 
-## Reporting and Visualization
-- Design interactive dashboards for stakeholders using tools like Tableau or Power BI.
-- Create automated reports on policy enforcement effectiveness and trends.
-- Develop visualizations to communicate insights to non-technical teams.
+<h2 id="scalability-and-performance-optimization">Scalability and Performance Optimization</h2>
+<ul>
+    <li>Implement distributed computing using Apache Spark for large-scale processing.</li>
+    <li>Optimize model inference time for real-time policy enforcement.</li>
+    <li>Develop a pipeline for continuous model retraining and deployment.</li>
+</ul>
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+<h2 id="incident-response-system">Incident Response System</h2>
+<ul>
+    <li>Create an automated alert system for detecting sudden spikes in policy violations.</li>
+    <li>Develop a dashboard for real-time monitoring of policy enforcement metrics.</li>
+    <li>Implement a root cause analysis framework for rapid incident investigation.</li>
+</ul>
 
-## Contact
-For questions or feedback, please contact [Vedant Mehta](mailto:vedantmehta987@gmail.com).
+<h2 id="reporting-and-visualization">Reporting and Visualization</h2>
+<ul>
+    <li>Design interactive dashboards for stakeholders using tools like Tableau or Power BI.</li>
+    <li>Create automated reports on policy enforcement effectiveness and trends.</li>
+    <li>Develop visualizations to communicate insights to non-technical teams.</li>
+</ul>
+
+<h2>Contact</h2>
+<p>For questions or feedback, please contact <a href="mailto:vedantmehta987@gmail.com">Vedant Mehta</a>.</p>
+
+</body>
+</html>
