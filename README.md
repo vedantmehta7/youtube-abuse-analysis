@@ -1,5 +1,3 @@
-# YouTube Abuse Analysis
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
